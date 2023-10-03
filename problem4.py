@@ -33,3 +33,22 @@ that is an obtuse triangle
 
 
 """
+
+from abc import abstractmethod
+
+
+a = input("Enter side a:")
+a = float(a)
+b = input("Enter side b:")
+b = float(b)
+c = input("Enter side c:")
+c = float(c)
+
+if (c ** 2) + (b ** 2) == (a ** 2):
+ print("Thats a right angle")
+
+elif (c ** 2) + (b ** 2) > (a ** 2):
+ print("Thats an obtuse triangle")
+
+else:
+ print("thats an acute triangle")

@@ -29,3 +29,18 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+a = input("Enter side a:")
+a = int(a)
+b = input("Enter side b:")
+b = int(b)
+c = input("Enter side c:")
+c = int(c)
+y = b ** 2 - 4 * a * c
+x = y ** 0.5
+x = str(x)
+print(x)
+if "." in x :
+ print("that can not be factored")
+else:
+ print("that can be factored")

@@ -31,3 +31,18 @@ Enter a number: 10000
 
 
 """
+
+x = input("x =")
+x = float(x)
+
+if x > 1000:
+ print("3")
+
+elif x > 100:
+ print("2")
+
+elif x > 10:
+ print("1")
+
+elif x > 0:
+ print("0")
